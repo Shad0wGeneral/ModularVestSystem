@@ -4073,31 +4073,31 @@ class cfgVehicles
 	class Inventory_Base;
 	class Lockpick: Inventory_Base
 	{
-		inventorySlot[] = {"MVS_Lockpick"};
+		inventorySlot[] += {"MVS_Lockpick"};
 	};
 	class Screwdriver: Inventory_Base
 	{
-		inventorySlot[] = {"Screwdriver","MassScrewDriver","Screwdriver1","Screwdriver2"};
+		inventorySlot[] += {"Screwdriver","MassScrewDriver","Screwdriver1","Screwdriver2"};
 	};
 	class Pliers: Inventory_Base
 	{
-		inventorySlot[] = {"Pliers","Pliers1"};
+		inventorySlot[] += {"Pliers","Pliers1"};
 	};
 	class Morphine: Container_Base
 	{
-		inventorySlot[] = {"morphine","epinephrine"};
+		inventorySlot[] += {"morphine","epinephrine"};
 	};
 	class Battery9V: Inventory_Base
 	{
-		inventorySlot[] = {"BatteryD","MVSBattery1","MVSBattery2"};
+		inventorySlot[] += {"BatteryD","MVSBattery1","MVSBattery2"};
 	};
 	class Epinephrine: Container_Base
 	{
-		inventorySlot[] = {"epinephrine","morphine"};
+		inventorySlot[] += {"epinephrine","morphine"};
 	};
 	class BandageDressing: Inventory_Base
 	{
-		inventorySlot[] = {"MedicalBandage"};
+		inventorySlot[] += {"MedicalBandage"};
 	};
 	class WoodenCrate;
 	class ArmorRack_Kit: WoodenCrate
@@ -4165,42 +4165,42 @@ class cfgVehicles
 			{
 				name = "MVS Helmet";
 				description = "";
-				attachmentSlots[] = {"MVS_helmet"};
+				attachmentSlots[] += {"MVS_helmet"};
 				icon = "missing";
 			};
 			class MVSMASK
 			{
 				name = "MVS S10 Respirator";
 				description = "";
-				attachmentSlots[] = {"MVS_mask"};
+				attachmentSlots[] += {"MVS_mask"};
 				icon = "missing";
 			};			
 			class MVSRig
 			{
 				name = "MVS Rig";
 				description = "";
-				attachmentSlots[] = {"MVS_vest"};
+				attachmentSlots[] += {"MVS_vest"};
 				icon = "missing";
 			};
 			class MVSBelt
 			{
 				name = "MVS Belt";
 				description = "";
-				attachmentSlots[] = {"MVS_belt"};
+				attachmentSlots[] += {"MVS_belt"};
 				icon = "missing";
 			};
 			class MVSPack
 			{
 				name = "MVS Pack";
 				description = "";
-				attachmentSlots[] = {"MVS_pack"};
+				attachmentSlots[] += {"MVS_pack"};
 				icon = "missing";
 			};
 			class MVSWeapon
 			{
 				name = "Rifle";
 				description = "";
-				attachmentSlots[] = {"Shoulder"};
+				attachmentSlots[] += {"Shoulder"};
 				icon = "missing";
 			};
 		};
